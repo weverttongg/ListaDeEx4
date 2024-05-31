@@ -12,24 +12,28 @@ public class Animal {
     //ENCAPSULAMENTO
     
    
-    // (Get) ( metodo que retorna um valor e sem par√¢metro )
+    // (Get) ( metodo que retorna um valor e sem par‚metro )
    public String getNome(){
-   return nome;
+   
+       return nome;
    }
    
    
-   // (Set) ( metodo que n√£o retorna valor e com par√¢metro )
+   // (Set) ( metodo que n„o retorna valor e com par‚metro )
    public void setNome(String nome) {
-   this.nome = nome;
+   
+       this.nome = nome;
    }
    
    
    public double getPeso(){
-    return peso;
+    
+       return peso;
    }
    
    public void setPeso(double peso) {
-   this.peso = peso;
+   
+       this.peso = peso;
    }
    
    void mostar() {

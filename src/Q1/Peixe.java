@@ -10,14 +10,16 @@ public class Peixe extends Animal {
      //ENCAPSULAMENTO
     
    
-    // (Get) ( metodo que retorna um valor e sem par√¢metro )
+    // (Get) ( metodo que retorna um valor e sem par‚metro )
     public String getTipoHabitat() {
-    return tipoHabitat;
+    
+        return tipoHabitat;
     }
     
-    // (Set) ( metodo que n√£o retorna valor e com par√¢metro )
+    // (Set) ( metodo que n„o retorna valor e com par‚metro )
     public void setTipoHabitat(String tipoHabitat) {
-    this.tipoHabitat = tipoHabitat;
+    
+        this.tipoHabitat = tipoHabitat;
     }
 
     @Override

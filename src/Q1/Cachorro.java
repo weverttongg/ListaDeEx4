@@ -10,12 +10,14 @@ public class Cachorro extends Animal {
    
     // (Get) ( metodo que retorna um valor e sem parâmetro )
      public String getRaca(){
-     return raca;
+     
+         return raca;
      }
      
         // (Set) ( metodo que não retorna valor e com parâmetro )
      public void setRaca(String raca){
-     this.raca = raca;
+     
+         this.raca = raca;
      }
 
     @Override
