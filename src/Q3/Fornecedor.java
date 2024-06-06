@@ -11,9 +11,11 @@ public class Fornecedor extends Pessoa{
     
     
     
-    void  obterSaldo() {
+    public void  obterSaldo() {
         
-     double diferenca= valorDivida - valorCredito;  
+     double calculo=  valorCredito - valorDivida; 
+      double diferenca = calculo;
+        System.out.println("diferença: " + diferenca);
     }
              //ENCAPSULAMENTO
     
@@ -40,6 +42,11 @@ public class Fornecedor extends Pessoa{
     public void setValorDivida(double valorDivida) {
     
         this.valorDivida = valorDivida;
+    }
+
+    @Override
+    public String toString() {
+        return "valor do Credito=" + valorCredito + ", valor da Divida=" + valorDivida;
     }
  
 }
