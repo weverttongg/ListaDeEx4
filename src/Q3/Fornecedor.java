@@ -15,7 +15,7 @@ public class Fornecedor extends Pessoa{
         
      double calculo=  valorCredito - valorDivida; 
       double diferenca = calculo;
-        System.out.println("diferença: " + diferenca);
+        System.out.println("Diferença: R$" + diferenca);
     }
              //ENCAPSULAMENTO
     
@@ -46,7 +46,7 @@ public class Fornecedor extends Pessoa{
 
     @Override
     public String toString() {
-        return "valor do Credito=" + valorCredito + ", valor da Divida=" + valorDivida;
+        return "Credito: R$" + valorCredito + "| Divida: R$" + valorDivida;
     }
  
 }

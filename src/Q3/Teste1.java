@@ -13,9 +13,17 @@ public class Teste1 {
         
         Fornecedor f = new Fornecedor();
         f.setValorCredito(5000);
-        f.setValorDivida(2500);
+        f.setValorDivida(1700);
         f.obterSaldo();
         System.out.println(f);
         f.obterSaldo();
+        
+        Empregado e = new Empregado();
+        
+        e.setNome(nome);
+        e.setEndereco(endereco);
+        e.setTelefone(telefone);
+        
+        
     }
 }
